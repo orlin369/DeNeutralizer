@@ -1211,7 +1211,7 @@
   (symbol (lib_id "Device:R") (at 232.41 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 834dcae7-39c3-4120-97e3-78b7973f4ba7)
-    (property "Reference" "R?" (id 0) (at 234.95 130.8099 0)
+    (property "Reference" "R4" (id 0) (at 234.95 130.8099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1M/0.6W" (id 1) (at 234.95 133.3499 0)
@@ -1400,7 +1400,7 @@
       (reference "R3") (unit 1) (value "10/0.6W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical")
     )
     (path "/834dcae7-39c3-4120-97e3-78b7973f4ba7"
-      (reference "R?") (unit 1) (value "1M/0.6W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical")
+      (reference "R4") (unit 1) (value "1M/0.6W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical")
     )
     (path "/4d09859b-c637-4181-bcbf-4292f51c0f42"
       (reference "U1") (unit 1) (value "PC817") (footprint "Package_DIP:DIP-4_W7.62mm")
