@@ -1211,8 +1211,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4188abe1-a17a-452b-82c2-c4cbdecdd572)
     (property "Reference" "R3" (id 0) (at 194.31 132.08 90))
-    (property "Value" "10/0.6W" (id 1) (at 194.31 134.62 90))
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical" (id 2) (at 194.31 136.652 90)
+    (property "Value" "10/5W" (id 1) (at 194.31 134.62 90))
+    (property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm" (id 2) (at 194.31 136.652 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 194.31 138.43 0)
@@ -1305,7 +1305,7 @@
     (property "Value" "1N4007" (id 1) (at 185.42 68.5799 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 187.325 67.31 0)
+    (property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp" (id 2) (at 187.325 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf" (id 3) (at 182.88 67.31 0)
@@ -1324,7 +1324,7 @@
     (property "Value" "57k" (id 1) (at 185.42 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 181.102 80.01 90))
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (id 2) (at 181.102 80.01 90))
     (property "Datasheet" "~" (id 3) (at 182.88 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1495,7 +1495,7 @@
     (property "Value" "57k" (id 1) (at 172.72 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 168.402 80.01 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" (id 2) (at 168.402 80.01 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 80.01 0)
@@ -1526,7 +1526,7 @@
       (reference "D4") (unit 1) (value "1N5408") (footprint "Diode_THT:D_DO-201AD_P5.08mm_Vertical_KathodeUp")
     )
     (path "/73c07c85-8041-4fbe-ab32-e3c9c0c750ce"
-      (reference "D5") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D5") (unit 1) (value "1N4007") (footprint "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp")
     )
     (path "/86ae69c9-3834-40ff-9cb9-8d2dfc8c1cb2"
       (reference "D6") (unit 1) (value "1N5408") (footprint "Diode_THT:D_DO-201AD_P5.08mm_Vertical_KathodeUp")
@@ -1559,13 +1559,13 @@
       (reference "J9") (unit 1) (value "Ripple-Cap") (footprint "TerminalBlock:TerminalBlock_bornier-2_P5.08mm")
     )
     (path "/f07b8ebe-0dd1-4e28-a031-b29c3a87e7a8"
-      (reference "R1") (unit 1) (value "57k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R1") (unit 1) (value "57k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/7b657e58-9581-4cba-99a8-54085112bee6"
-      (reference "R2") (unit 1) (value "57k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
+      (reference "R2") (unit 1) (value "57k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical")
     )
     (path "/4188abe1-a17a-452b-82c2-c4cbdecdd572"
-      (reference "R3") (unit 1) (value "10/0.6W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical")
+      (reference "R3") (unit 1) (value "10/5W") (footprint "Resistor_THT:R_Axial_Power_L25.0mm_W9.0mm_P27.94mm")
     )
     (path "/834dcae7-39c3-4120-97e3-78b7973f4ba7"
       (reference "R4") (unit 1) (value "1M/0.6W") (footprint "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical")
